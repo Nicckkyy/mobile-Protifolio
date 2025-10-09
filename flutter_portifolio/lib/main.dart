@@ -13,6 +13,7 @@ class Inicial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(fontFamily: "Gabriela"),
       debugShowCheckedModeBanner: false,
       home: MyPortifolioHome(),
     );
@@ -25,6 +26,7 @@ class MyPortifolioHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(fontFamily: "Gabriela"),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         // appBar: AppBar(
@@ -55,7 +57,7 @@ class MyPortifolioHome extends StatelessWidget {
                       style: TextStyle(
                         color: Color.fromRGBO(56, 41, 15, 1),
                         fontSize: 25,
-                        fontFamily: "Gabriela",
+                        // fontFamily: "Gabriela",
                         letterSpacing: 2,
                       ),
                     ),
@@ -65,7 +67,7 @@ class MyPortifolioHome extends StatelessWidget {
                       style: TextStyle(
                         color: Color.fromRGBO(56, 41, 15, 1),
                         fontSize: 56,
-                        fontFamily: "Gabriela",
+                        // fontFamily: "Gabriela",
                         fontWeight: FontWeight.bold,
                       ),
                     ),
