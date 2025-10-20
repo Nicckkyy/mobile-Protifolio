@@ -96,7 +96,7 @@ class Home extends StatelessWidget {
                         ),
                         SizedBox(height: 20),
                         Text(
-                          "Some text",
+                          "I am a person who loves the arts and by chance, I found myself in the middle of programming",
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.black,
@@ -105,7 +105,7 @@ class Home extends StatelessWidget {
                         ),
                         SizedBox(height: 16),
                         Text(
-                          "some another text",
+                          "My favorite hobbies involve reading, painting, listening to music and watching good movies and anime.\nIn the professional area, I like being able to convey my creative vision for the project, ultimately being able to give a unique touch",
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.black54,
